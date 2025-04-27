@@ -68,6 +68,7 @@ public class GUItri extends JFrame implements ActionListener {
 			contentPane.add(scrollPane);
 			{
 				txtS = new JTextArea();
+				txtS.setText("commit");
 				scrollPane.setViewportView(txtS);
 			}
 		}
