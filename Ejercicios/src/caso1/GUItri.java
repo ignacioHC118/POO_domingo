@@ -20,7 +20,7 @@ public class GUItri extends JFrame implements ActionListener {
 	private JLabel lblNewLabel;
 	private JLabel lblNewLabel_1;
 	private JScrollPane scrollPane;
-	private JTextArea txtS;
+	private JTextArea Cuadrito;
 	private JTextField txtb;
 	private JTextField txta;
 	private JButton btnp;
@@ -67,9 +67,9 @@ public class GUItri extends JFrame implements ActionListener {
 			scrollPane.setBounds(22, 155, 280, 95);
 			contentPane.add(scrollPane);
 			{
-				txtS = new JTextArea();
-				txtS.setText("commit");
-				scrollPane.setViewportView(txtS);
+				Cuadrito = new JTextArea();
+				Cuadrito.setText("2do commit");
+				scrollPane.setViewportView(Cuadrito);
 			}
 		}
 		{
@@ -104,7 +104,7 @@ public class GUItri extends JFrame implements ActionListener {
 		Listado(tri);
 	}
 	void Imprimir(String s) {
-		txtS.append(s+"\n");
+		Cuadrito.append(s+"\n");
 	}
 	void Listado(Triangulo tri) {
 		Imprimir("la base es: " + tri.getBase());
