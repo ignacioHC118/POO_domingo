@@ -27,5 +27,5 @@ public class Triangulo {
 	public  double Area() {
 		return base*altura/2;
 	}
-
+//commit de compa
 }
